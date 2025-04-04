@@ -9,7 +9,7 @@
              padding: 0;
              background-color: #e984e9;
          }
- 
+
          header {
              background-color: #94198a;
              color: #fff;
@@ -17,11 +17,11 @@
              padding: 2rem 0;
              position: relative; /* Add this */
          }
- 
+
          .header-content h1 {
-             font-size: 2.5rem;
+             font-size: 1.5rem;
          }
- 
+
          /* Add styles for the round profile picture */
          .profile-picture {
              width: 100px; /* Adjust the size as needed */
@@ -29,31 +29,31 @@
              border-radius: 75%; /* Create a circular shape */
              object-fit: cover; /* To ensure the image fills the circular area */
              position: absolute; /* Add this */
-             top: 75px; /* Adjust top position as needed */
-             left: 75px; /* Adjust left position as needed */
+             top: 5px; /* Adjust top position as needed */
+             left: 5px; /* Adjust left position as needed */
          }
- 
+
          nav {
              background-color: #33333300;
              color: #ffffff;
-             text-align: center;
+             text-align: right;
          }
- 
+
          nav ul {
              list-style-type: none;
              padding: 0;
          }
- 
+
          nav ul li {
              display: inline;
              margin: 0 20px;
          }
- 
+
          nav ul li a {
              text-decoration: none;
              color: #fff;
          }
- 
+
          .section-content {
              background-color: #fff;
              padding: 2rem;
@@ -62,7 +62,7 @@
              box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
              text-align: justify;
          }
- 
+
          .download-button {
              background-color: #333;
              color: #fff;
@@ -73,18 +73,18 @@
              margin-top: 10px;
              align-self: center;
          }
- 
+
          .download-button:hover {
              background-color: #555;
          }
- 
+
          footer {
              text-align: center;
              padding: 1rem 0;
              background-color: #333;
              color: #fff;
          }
- 
+
          ul {
              list-style-type: disc;
              padding-left: 20px;
@@ -95,12 +95,12 @@
      <header>
          <div class="header-content">
              <!-- Add your profile picture here -->
-             <img src="IMG_20250122_194634.jpg" alt="Your Profile Picture" class="profile-picture">
+             <img src=https://assets.onecompiler.app/43dcbctv6/43dq8jprk/1000088557.jpg alt="Your Profile Picture" class="profile-picture">
              <h1>Varikuti kavya</h1>
              <p>A COMPUTER SCIENCE STUDENT</p>
          </div>
      </header>
- 
+
      <nav>
          <ul>
              <li><a href="#about">About</a></li>
@@ -108,10 +108,10 @@
              <li><a href="#skills">Skills</a></li>
              <li><a href="#projects">Projects</a></li>
              <li><a href="#resume">Resume</a></li>
-            
+
          </ul>
      </nav>
- 
+
      <section id="about">
          <div class="section-content">
              <h2>About Me</h2>
@@ -121,19 +121,19 @@
                   with the latest trends and innovations in the 
                   Computing landscape.Iam so into programming languages like python,java,c++.etc..
                 </p>
- 
+
          </div>
      </section>
- 
+
      <section id="education">
          <div class="section-content">
              <h2>Education</h2>
              <p>university of madras</p>
-             
-             
+
+
          </div>
      </section>
- 
+
      <section id="skills">
          <div class="section-content">
              <h2>Skills</h2>
@@ -148,7 +148,7 @@
              </ul>
          </div>
      </section>
- 
+
      <section id="projects">
          <div class="section-content">
              <h2>Projects</h2>
@@ -161,31 +161,31 @@
              </ul>
          </div>
      </section>
- 
+
      <section id="resume">
-     
+
          <div class="section-content">
              <center>
              <h2>Resume</h2>
              <a href="https://github.com/kavya272005/digital-portfolio/blob/main/CV_2025040219164712.pdf" target="_blank" class="download-button">Download CV</a>
          </center>
          </div>
-         
+
      </section>
- 
+
      <footer>
          <p>&copy; 2025 Varikuti kavya </p>
      </footer>
- 
+
      <script>
          // Smooth scrolling to section when clicking on navigation links
          document.querySelectorAll('a[href^="#"]').forEach(anchor => {
              anchor.addEventListener('click', function(e) {
                  e.preventDefault();
- 
+
                  const targetId = this.getAttribute('href').substring(1);
                  const targetElement = document.getElementById(targetId);
- 
+
                  if (targetElement) {
                      window.scrollTo({
                          top: targetElement.offsetTop,
